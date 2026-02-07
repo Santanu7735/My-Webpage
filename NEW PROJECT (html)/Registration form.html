@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration-TeamWork.pvt.ltd</title>
+
+        <!-- style using js -->
+    <script type="text/javascript">
+        function changeBackground() {
+           document.body.style.background = "white";
+        }
+    </script>
+
+
+</head>
+<body bgcolor="gray">
+
+	<!--field box -->
+<fieldset> <legend> <h3> New User Registration </h3> </legend>
+		
+		<!--USER DETAILS-->
+<form action="submit page.html" method="post" target="self">
+<label> First Name : </label> <input type="text" name="First name" autocomplete=" "> <br><br>
+<label> Middle Name : </label><input type="text" name="Middle name"> <br><br>
+<label> Last Name : </label> <input type="text" name="Last name"> <br><br>
+<label> Email : </label> <input type="email" name="email"> <br><br>
+<label> Mobile No. : +91</label> <input type="count" name="Mobile No"> <br><br>
+
+        <!--PASSWORD-->
+ <label> User Name :</label> <input type="text" name="User Name"> <br>
+
+Create new Password:- <br>
+<label> New password : </label> <input type="password" name="password"> <br> <label>Re-Type Password :</label> <input type="text" name="password"><br><br>
+
+        <!--GENDER-->
+
+<label> Gender : </label><input type="radio" name="Gender" value="Male">Male 
+</label><input type="radio" name="Gender" value="Female"> Female 
+</label><input type="radio" name="Gender" value="Other"> Other <br><br>
+
+        <!--ADDRESS-->
+<label> Address : <textarea> </textarea> </label><br><br>
+
+        <!--check-box TERM & CONDITION -->
+<label>(Tick on CheckBox)</label>
+<br>
+<input type="checkbox" id="User agreement" name="term&condition" onblur="changeBackground()">
+        I hereby accept the terms and conditions .<br> <small>(It is a formal statement of agreement to the rules or obligations presented by Team-Work.pvt.ltd)</small> 
+     <a href="file:///C:/Users/Santanu/Desktop/JAVA/NEW%20PROJECT%20(html)/term&cond%5E.html" target="self">Term&Condition</a> <br><br>
+        <!--submit & button -->
+<input type="submit" value="Submit">
+<input type="button" value ="Save as draft">
+<input type="reset" value=" Reset ">
+</fieldset></form>
+</body>
+</html>
+
+
+ <!-- onblure effect using js--
+    <label>Firstname:</label><input type="text" name="First Name" onblur="changeBackground()"> -->
